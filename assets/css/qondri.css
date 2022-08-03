@@ -489,7 +489,7 @@ ul {
   display: flex;
   float: left;
   align-items: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .main-menu-wrapper__logo {
@@ -531,7 +531,7 @@ ul {
   display: flex;
   align-items: center;
   margin-left: 0px;
-  padding: 27.5px 0;
+  padding: 20px 0;
 }
 
 .main-menu-wrapper__search-box {
@@ -562,7 +562,7 @@ ul {
 .main-menu-wrapper__call:before {
   position: absolute;
   top: -28px;
-  bottom: -27px;
+  bottom: -22px;
   left: 0;
   content: "";
   background-color: var(--primary-bdr-color);
@@ -576,7 +576,7 @@ ul {
 }
 
 .main-menu-wrapper__call-icon span {
-  font-size: 40px;
+  font-size: 28px;
   /* color: var(--primary-base); */
 
   color: var(--primary-black);
@@ -647,8 +647,7 @@ ul {
 
 .main-menu .main-menu__list>li,
 .stricky-header .main-menu__list>li {
-  padding-top: 37px;
-  padding-bottom: 37px;
+  padding: 20px 0;
   position: relative;
 }
 
@@ -3225,7 +3224,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding: 112px 0 92px;
+  padding: 50px 0;
 }
 
 .footer-widget__about {
@@ -6629,14 +6628,28 @@ ul {
   position: relative;
   transition: all .5s;
   width: 100%;
-  z-index: 1
+  z-index: 1;
+
+}
+
+.projects__img::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9) 100%);
+  background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9));
+  background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9));
+
+
 }
 
 .projects__info {
-  background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9) 100%);
-  background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9));
-  background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9));
-  bottom: -6rem;
+  background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9) 100%);
+  background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9));
+  background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9));
+  bottom: -4.8rem;
   box-sizing: border-box;
   color: #fff;
   height: auto;
@@ -6651,6 +6664,10 @@ ul {
   transition: all .3s ease;
   width: 100%;
   z-index: 20;
+  padding: 5rem 1.5rem 1rem;
+  bottom: -2.8rem;
+
+
   z-index: 2
 }
 
