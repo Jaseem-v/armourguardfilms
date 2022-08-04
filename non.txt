@@ -1,0 +1,146 @@
+<section class="pricing-one" id="services">
+            <div class="pricing-one-shape" style="background-image: url(assets/images/shapes/pricing-one-shape.png);">
+            </div>
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">What We Offer</span>
+                    <h2 class="section-title__title">Characteristics </h2>
+                </div>
+                <div class="pricing-one__top">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-xs-12 wow fadeInUp"
+                            data-wow-delay="100ms">
+                            <!--Pricing One Single-->
+                            <div class="pricing-one__single">
+                                <!-- <div class="pricing-one__icon-count-box">
+                                    <div class="pricing-one__icon"> -->
+                                <!-- <span class="icon-drying"></span> -->
+                                <!-- </div>
+                                    <div class="pricing-one__count"></div>
+                                </div> -->
+                                <div class="pricing-one__content">
+                                    <h3 class="pricing-one__title">Anti Scratch</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-xs-12 wow fadeInUp"
+                            data-wow-delay="200ms">
+                            <!--Pricing One Single-->
+                            <div class="pricing-one__single">
+                                <!-- <div class="pricing-one__icon-count-box">
+                                    <div class="pricing-one__icon"> -->
+                                <!-- <span class="icon-laundry-machine"></span> -->
+                                <!-- </div>
+                                    <div class="pricing-one__count"></div>
+                                </div> -->
+                                <div class="pricing-one__content">
+                                    <h3 class="pricing-one__title">Non Yellowing</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-xs-12 wow fadeInUp"
+                            data-wow-delay="300ms">
+                            <!--Pricing One Single-->
+                            <div class="pricing-one__single">
+                                <!-- <div class="pricing-one__icon-count-box">
+                                    <div class="pricing-one__icon"> -->
+                                <!-- <span class="icon-laundry-basket"></span> -->
+                                <!-- <span class="icon-ironing"></span> -->
+                                <!-- </div>
+                                    <div class="pricing-one__count"></div>
+                                </div> -->
+                                <div class="pricing-one__content">
+                                    <h3 class="pricing-one__title">Self Healing</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-xs-12 wow fadeInUp"
+                            data-wow-delay="400ms">
+                            <!--Pricing One Single-->
+                            <div class="pricing-one__single">
+                                <!-- <div class="pricing-one__icon-count-box">
+                                    <div class="pricing-one__icon"> -->
+                                <!-- <span class="icon-laundry-1"></span> -->
+                                <!-- </div>
+                                    <div class="pricing-one__count"></div>
+                                </div> -->
+                                <div class="pricing-one__content">
+                                    <h3 class="pricing-one__title">Anti Fouling</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-xs-12 wow fadeInUp"
+                            data-wow-delay="400ms">
+                            <!--Pricing One Single-->
+                            <div class="pricing-one__single">
+                                <!-- <div class="pricing-one__icon-count-box">
+                                    <div class="pricing-one__icon"> -->
+                                <!-- <span class="icon-washing-machine-1"></span> -->
+                                <!-- <object data="assets/images/stain.svg" width="300" height="300"> </object> -->
+                                <!-- </div>
+                                    <div class="pricing-one__count"></div>
+                                </div> -->
+                                <div class="pricing-one__content">
+                                    <h3 class="pricing-one__title">Easy Installation</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-xs-12 wow fadeInUp"
+                            data-wow-delay="400ms">
+                            <!--Pricing One Single-->
+                            <div class="pricing-one__single">
+                                <!-- <div class="pricing-one__icon-count-box">
+                                    <div class="pricing-one__icon"> -->
+                                <!-- <span class="icon-washing-machine-1"></span> -->
+                                <!-- <object data="assets/images/stain.svg" width="300" height="300"> </object> -->
+                                <!-- </div>
+                                    <div class="pricing-one__count"></div>
+                                </div> -->
+                                <div class="pricing-one__content">
+                                    <h3 class="pricing-one__title">Easy Installation</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-xs-12 wow fadeInUp"
+                            data-wow-delay="400ms"> -->
+                        <!--Pricing One Single-->
+                        <!-- <div class="pricing-one__single">
+                                <div class="pricing-one__icon-count-box">
+                                    <div class="pricing-one__icon">
+                                        <span class="icon-washing"></span>
+                                    </div>
+                                    <div class="pricing-one__count"></div>
+                                </div>
+                                <div class="pricing-one__content">
+                                    <h3 class="pricing-one__title">Stain Removing</h3>
+
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- <div class="pricing-one__bottom">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="pricing-one__bottom-inner">
+                                <div class="pricing-one__bottom-left">
+                                    <h2 class="pricing-one__bottom-title">Quality Laundry Services with <br> Free
+                                        <span>Pickup & Delivery</span>
+                                    </h2>
+                                </div>
+                                <div class="cta-one__btn-box">
+                                    <a href="tel:+919946761010" class="thm-btn cta-one__btn">Order Now <span
+                                            class="icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>

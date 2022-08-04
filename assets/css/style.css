@@ -2077,9 +2077,10 @@ ul {
 .services-one {
   position: relative;
   display: block;
-  padding: 0 0 90px;
+  padding: 90px 0;
   margin-top: 0px;
   z-index: 3;
+  background: #f2f5f8;
 }
 
 .services-one__single {
@@ -2114,6 +2115,7 @@ ul {
   transform-origin: top;
   border-radius: var(--primary-bdr-radius);
   z-index: 1;
+  display: none;
 }
 
 .services-one__single:hover .services-one__img:before {
@@ -2199,7 +2201,7 @@ ul {
   line-height: 30px;
   margin: 0;
   padding-top: 12px;
-  padding-bottom: 31px;
+  padding-bottom: 0px;
 }
 
 .services-one__btn {
@@ -3088,7 +3090,7 @@ ul {
 .cta-one {
   position: relative;
   display: block;
-  background-color: var(--primary-base);
+  background-color: var(--primary-black);
   z-index: 1;
 }
 
@@ -3098,14 +3100,14 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-repeat: repeat-x;
+  background-repeat: none;
   background-size: cover;
   background-position: center;
   background-color: var(--primary-base);
   background-blend-mode: soft-light;
   opacity: 0.4;
   z-index: -1;
-  animation: bgSlide 20s linear infinite;
+  /* animation: bgSlide 20s linear infinite; */
 }
 
 @keyframes bgSlide {
@@ -3187,6 +3189,12 @@ ul {
 
 .cta-one__btn {
   background-color: var(--primary-black);
+}
+
+.cta-one__btn--warranty {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+
 }
 
 .cta-one__btn:hover {
@@ -3540,7 +3548,12 @@ ul {
 .welcome-two__left {
   position: relative;
   display: block;
-  margin-right: 40px;
+  /* margin-right: 0px; */
+}
+
+.welcome-two__left--2 {
+  /* margin-right: 0px; */
+
 }
 
 .welcome-two__img-box {
@@ -3621,6 +3634,11 @@ ul {
   position: relative;
   display: block;
   margin-left: 70px;
+}
+
+.welcome-two__right--2 {
+  margin-right: 70px;
+  margin-left: 0px;
 }
 
 .welcome-two__right .section-title {
@@ -6587,8 +6605,9 @@ ul {
 //// project  */
 
 .projects {
-  padding: 120px 0 0;
+  padding: 120px 0 120px;
   font-size: 62.5%;
+  background: #f2f5f8;
 
 }
 
@@ -6649,7 +6668,7 @@ ul {
   background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9) 100%);
   background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9));
   background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, .9));
-  bottom: -4.8rem;
+  bottom: -4rem;
   box-sizing: border-box;
   color: #fff;
   height: auto;
@@ -6666,8 +6685,6 @@ ul {
   z-index: 20;
   padding: 5rem 1.5rem 1rem;
   bottom: -2.8rem;
-
-
   z-index: 2
 }
 
@@ -6687,8 +6704,10 @@ ul {
 
 .projects__title {
   font-size: 1.5rem;
-  margin-bottom: .5rem;
-  text-transform: uppercase
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #27a3e0;
+  /* text-transform:  */
 }
 
 @media only screen and (max-width:37.5em) {
