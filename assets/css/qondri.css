@@ -6218,7 +6218,7 @@ ul {
 .contact-page-google-map__inner {
   position: relative;
   display: block;
-  max-width: 1370px;
+  /* max-width: 1370px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -6674,7 +6674,8 @@ ul {
 @media only screen and (max-width:37.5em) {
   .projects__info {
     align-items: center;
-    background: #82b440;
+    /* background: #82b440; */
+    background: #747f8e;
     bottom: 0;
     display: flex;
     justify-content: space-between;
