@@ -1160,6 +1160,11 @@
         padding: 0 1.5rem;
     }
 
+    .footer-widget__about-text-box .welcome-two__text {
+        /* text-align: left; */
+        padding: 0;
+    }
+
     .how-we-work__icon {
         height: 160px;
         width: 160px;
