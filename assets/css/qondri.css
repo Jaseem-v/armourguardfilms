@@ -576,7 +576,7 @@ ul {
 }
 
 .main-menu-wrapper__call-icon span {
-  font-size: 28px;
+  font-size: 22px;
   /* color: var(--primary-base); */
 
   color: var(--primary-black);
@@ -597,8 +597,8 @@ ul {
 }
 
 .main-menu-wrapper__call-number h5 {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 0px;
   font-weight: 500;
 }
 
