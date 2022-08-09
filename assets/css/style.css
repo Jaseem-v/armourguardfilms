@@ -2869,6 +2869,13 @@ ul {
   margin-bottom: 12px;
 }
 
+.how-we-work__title span{
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
 .how-we-work__text {
   margin: 0;
 }
