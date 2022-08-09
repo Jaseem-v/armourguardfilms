@@ -1209,7 +1209,7 @@ ul {
   z-index: -1;
 }
 
-.main-slider .swiper-slide-active .image-layer {
+.main-slider .swiper-slide-active . {
   transform: scale(1.15);
 }
 
@@ -2745,7 +2745,7 @@ ul {
 .how-we-work__list {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   counter-reset: count;
 }
@@ -2760,6 +2760,7 @@ ul {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  height: 100%;
 }
 
 .how-we-work__single:before {
@@ -6748,4 +6749,10 @@ ul {
 .projects__outer {
   bottom: 0 !important;
   margin-bottom: 2rem
+}
+
+.types__list{
+  /* padding-left: 0; */
+  list-style: disc;
+  text-align: left;
 }
