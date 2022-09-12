@@ -640,6 +640,21 @@
     }
 }
 
+@media(max-width: 998px) {
+    .how-we-work__single{
+        max-width: 50%;
+        flex: 0 0 50%;
+
+
+    }
+
+    .how-we-work__single::before{
+          display: none;  
+    }
+
+  
+}
+
 @media (max-width: 767px) {
     .section-title__title {
         font-size: 30px;

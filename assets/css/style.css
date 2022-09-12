@@ -7,7 +7,7 @@
   --primary-gray-rgb: 116, 127, 142;
   --primary-white: #ffffff;
   --primary-white-rgb: 255, 255, 255;
-  --primary-black: #1471A0;
+  --primary-black: #006CA1;
   --primary-black-rgb: 24, 56, 98;
   --primary-base: #94939A;
   --primary-base-rgb: 137, 185, 46;
@@ -231,9 +231,10 @@ ul {
 
 .section-title__title {
   margin: 0;
-  font-size: 50px;
+  font-size: 43px;
   line-height: 60px;
-  font-weight: 800;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
@@ -911,7 +912,7 @@ ul {
   top: 20px;
   right: 15px;
   font-size: 18px;
-  color: var(--primary-text-dark);
+  color: #fff;
   cursor: pointer;
 }
 
@@ -1209,7 +1210,7 @@ ul {
   z-index: -1;
 }
 
-.main-slider .swiper-slide-active . {
+.main-slider .swiper-slide-active .image-layer{
   transform: scale(1.15);
 }
 
@@ -2781,7 +2782,7 @@ ul {
 .how-we-work__single-box {
   position: relative;
   display: block;
-  padding: 0 60px 0;
+  padding: 0 32px 0;
   margin-bottom: 30px;
 }
 
@@ -2878,6 +2879,10 @@ ul {
 
 .how-we-work__text {
   margin: 0;
+}
+
+.how-we-work__note{
+  color: var(--primary-black);
 }
 
 .how-we-work__bottom {
@@ -6763,4 +6768,8 @@ ul {
   list-style: disc;
   text-align: left;
   font-size: 16px;
+}
+
+.welcome-two ,.services-one , .how-we-work , .projects , .contact-page{
+  padding: 80px 0;
 }
