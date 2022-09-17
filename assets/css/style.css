@@ -904,7 +904,7 @@ ul {
 }
 
 .mobile-nav__content .logo-box img {
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
 }
 
 .mobile-nav__close {

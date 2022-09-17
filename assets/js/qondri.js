@@ -141,14 +141,35 @@
 
 
 
+// //////////////////
+//GALLERY
 
-$('a[href^="#"]').on('click', function (e) {
-  var target = this.hash,
-    $target = $(target);
+const info = document.querySelectorAll(".projects__info");
+const projectBtns = document.querySelectorAll(".projects__btn");
+let clickedBtn;
 
-  $('html, body').stop().animate({
-    'scrollTop': $target.offset().top - 70
-  }, 200, 'swing', function () {
-    window.location.hash = target;
-  });
-});
+projectBtns.forEach(el => {
+  el.addEventListener("click", () => {
+    clickedBtn = el.closest(".projects__info")
+
+    console.log(clickedBtn);
+  })
+})
+$('.projects__btn').magnificPopup({
+  type: 'image',
+  gallery: {
+    enabled: true
+  },
+  callbacks: {
+    open: function () {
+      $.magnificPopup.instance.close = function () {
+        $.magnificPopup.proto.close.call(this);
+        clickedBtn.style.bottom = "0rem"
+        setTimeout(() => {
+          clickedBtn.style.bottom = "-6rem"
+        }, 200)
+      };
+
+    }
+  }
+})
